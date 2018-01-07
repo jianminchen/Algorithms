@@ -1,1 +1,2 @@
 "# Algorithms" 
+This is a repository of simple implementation of common algorithms. Each algorithms implementation has a class with its name. To compile and run a particular algorithm, uncomment the main() method in the corresponding class and build the solution and run it. Currently the inputs are hardcoded in the Main method, i will work on taking the inputs from the console or a file. I will also add unit tests so that all kinds of inputs are tested for each algorithms. This is open source so feel free to add to this list of algorithms. Suggestions are also welcome.
