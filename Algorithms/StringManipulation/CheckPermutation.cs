@@ -9,14 +9,14 @@ namespace InterviewPrep
     class CheckPermutation
     {
         // Given two strings check if one is a permutation of the other
-        public static void Main(string[] args)
-        {
-            string first = "abbcz";
-            string second = "cazbb";
-            bool result = IsPermutation(first, second);
-            Console.Write(result);
-            Console.ReadKey();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    string first = "abbcz";
+        //    string second = "cazbb";
+        //    bool result = IsPermutation(first, second);
+        //    Console.Write(result);
+        //    Console.ReadKey();
+        //}
 
         private static bool IsPermutation(string first, string second)
         {

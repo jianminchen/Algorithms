@@ -51,6 +51,7 @@
     <Compile Include="Sorting\MergeSort.cs" />
     <Compile Include="QueueWithTwoStacks.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
+    <Compile Include="StringManipulation\URLify.cs" />
     <Compile Include="TwoSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
