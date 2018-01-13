@@ -8,18 +8,18 @@ namespace Algorithms
 {
     class MergeSort
     {
-        public static void Main(string[] args)
-        {
-            int[] input = { 3, 1, 9, 5, 2, 7, 1, 10, 20, 15, 4, 30 };
-            int[] temp = new int[input.Length];
-            Sort(input, temp, 0, input.Length - 1);
-            for (int i = 0; i < input.Length; i++)
-            {
-                Console.WriteLine(input[i]);
-            }
+        //public static void Main(string[] args)
+        //{
+        //    int[] input = { 3, 1, 9, 5, 2, 7, 1, 10, 20, 15, 4, 30 };
+        //    int[] temp = new int[input.Length];
+        //    Sort(input, temp, 0, input.Length - 1);
+        //    for (int i = 0; i < input.Length; i++)
+        //    {
+        //        Console.WriteLine(input[i]);
+        //    }
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
 
         private static void Merge(int[] input, int[] temp, int low, int mid, int high)
         {

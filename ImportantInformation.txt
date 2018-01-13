@@ -1,0 +1,6 @@
+Strings:
+	Two representations of strings: ASCII or Unicode
+	Ascii has 128 characters can be represented by 7 bits and extended ASCII has 255 characters which are represented using 1 byte
+        Unicode (UTF-16) has 65536 (2 power 16) and can be represented by 2 bytes and UTF-32 by 4 bytes and UTF-8 by 1 byte
+	
+	If you are concatenating strings its better to use stringbuilder only if there are too many concatenations as string is immutable so concatenation is expensive. However Stringbuilder should be used only if there are significant number of concatenations. Only for a small number of concatenations using stringbuilder is less efficient.
