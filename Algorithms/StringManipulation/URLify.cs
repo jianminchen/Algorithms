@@ -9,16 +9,16 @@ namespace InterviewPrep.StringManipulation
     // Given an input string replace all spaces with %20
     class URLify
     {
-        public static void Main(string[] args)
-        {
-            string input = "  Hello World. How are you? ";
+        //public static void Main(string[] args)
+        //{
+        //    string input = "  Hello World. How are you? ";
 
-            char[] output = EscapeString(input);
+        //    char[] output = EscapeString(input);
 
-            Console.WriteLine(input);
-            Console.WriteLine(output);
-            Console.ReadKey();
-        }
+        //    Console.WriteLine(input);
+        //    Console.WriteLine(output);
+        //    Console.ReadKey();
+        //}
 
         private static char[] EscapeString(string input)
         {
