@@ -43,13 +43,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddTwoNumbers.cs" />
+    <Compile Include="StringManipulation\CheckPermutation.cs" />
     <Compile Include="GenericStack.cs" />
-    <Compile Include="InsertionSort.cs" />
-    <Compile Include="IsUnique.cs" />
+    <Compile Include="Sorting\InsertionSort.cs" />
+    <Compile Include="StringManipulation\IsUnique.cs" />
     <Compile Include="LengthOfLongestSubstring.cs" />
-    <Compile Include="MergeSort.cs" />
+    <Compile Include="Sorting\MergeSort.cs" />
     <Compile Include="QueueWithTwoStacks.cs" />
-    <Compile Include="SelectionSort.cs" />
+    <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="TwoSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

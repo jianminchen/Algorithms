@@ -9,13 +9,13 @@ namespace InterviewPrep
     // Algorithm to determine if a string has all unique characters
     class IsUnique
     {
-        public static void Main(string[] args)
-        {
-            string input = "abtrcgkasinzxwy";
-            bool result = UniqueEfficient(input);
-            Console.Write(result);
-            Console.ReadKey();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    string input = "abtrcgkasinzxwy";
+        //    bool result = UniqueEfficient(input);
+        //    Console.Write(result);
+        //    Console.ReadKey();
+        //}
 
         internal static bool Unique(string input)
         {
