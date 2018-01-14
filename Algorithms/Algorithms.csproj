@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddTwoNumbers.cs" />
+    <Compile Include="Sorting\QuickSort.cs" />
     <Compile Include="StringManipulation\CheckPermutation.cs" />
     <Compile Include="GenericStack.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
