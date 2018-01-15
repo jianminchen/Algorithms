@@ -8,17 +8,17 @@ namespace InterviewPrep.Sorting
 {
     class QuickSort
     {
-        public static void Main(string[] args)
-        {
-            int[] input = { 13, 8, 1, 9, 2, 4, 1, 10, 5, 12 };
-            Sort(input, 0, input.Length - 1);
-            foreach(int element in input)
-            {
-                Console.WriteLine(element);
-            }
+        //public static void Main(string[] args)
+        //{
+        //    int[] input = { 13, 8, 1, 9, 2, 4, 1, 10, 5, 12 };
+        //    Sort(input, 0, input.Length - 1);
+        //    foreach(int element in input)
+        //    {
+        //        Console.WriteLine(element);
+        //    }
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
 
         private static void Sort(int[] input, int low, int high)
         {
