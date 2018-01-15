@@ -102,19 +102,19 @@ class Solution
         }
     }
 
-    static void Main(string[] args)
-    {
-        // arr1 = 1,2000
-        // arr2 = 1,2,3,4,5,...,2000
-        int[] arr1 = new int[] { 1, 2, 6, 7 };
-        int[] arr2 = new int[] { 3, 6, 7, 8, 20 };
-        var result = FindDuplicatesOptimized(arr1, arr2);
-        foreach (var element in result)
-        {
-            Console.WriteLine(element);
-        }
+    //static void Main(string[] args)
+    //{
+    //    // arr1 = 1,2000
+    //    // arr2 = 1,2,3,4,5,...,2000
+    //    int[] arr1 = new int[] { 1, 2, 6, 7 };
+    //    int[] arr2 = new int[] { 3, 6, 7, 8, 20 };
+    //    var result = FindDuplicatesOptimized(arr1, arr2);
+    //    foreach (var element in result)
+    //    {
+    //        Console.WriteLine(element);
+    //    }
 
-        Console.ReadKey();
-    }
+    //    Console.ReadKey();
+    //}
 }
 

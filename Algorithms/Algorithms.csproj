@@ -43,22 +43,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddTwoNumbers.cs" />
-    <Compile Include="FindDuplicates.cs" />
+    <Compile Include="PRAMP\FindDuplicates.cs" />
+    <Compile Include="PRAMP\MergingPackages.cs" />
     <Compile Include="Sorting\QuickSort.cs" />
     <Compile Include="StringManipulation\CheckPermutation.cs" />
     <Compile Include="GenericStack.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
     <Compile Include="StringManipulation\IsUnique.cs" />
-    <Compile Include="LengthOfLongestSubstring.cs" />
+    <Compile Include="PRAMP\LengthOfLongestSubstring.cs" />
     <Compile Include="Sorting\MergeSort.cs" />
     <Compile Include="QueueWithTwoStacks.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="StringManipulation\URLify.cs" />
     <Compile Include="TwoSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
