@@ -1,0 +1,6 @@
+https://github.com/shashank88/system_design#designques
+https://github.com/checkcheckzz/system-design-interview
+https://www.hiredintech.com/classrooms/system-design/lesson/105
+http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache
+http://blog.gainlo.co/index.php/category/system-design-interview-questions/
+https://github.com/donnemartin/system-design-primer
