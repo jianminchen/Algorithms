@@ -43,17 +43,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddTwoNumbers.cs" />
-    <Compile Include="PRAMP\FindDuplicates.cs" />
-    <Compile Include="PRAMP\GetCheapestCost.cs" />
-    <Compile Include="PRAMP\LargestSmallerBSTKey.cs" />
-    <Compile Include="PRAMP\MergingPackages.cs" />
+    <Compile Include="MockInterviews\FindDuplicates.cs" />
+    <Compile Include="MockInterviews\GetCheapestCost.cs" />
+    <Compile Include="MockInterviews\LargestSmallerBSTKey.cs" />
+    <Compile Include="MockInterviews\MergingPackages.cs" />
     <Compile Include="Sorting\QuickSort.cs" />
     <Compile Include="StringsAndArrays\CheckPermutation.cs" />
     <Compile Include="GenericStack.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
     <Compile Include="StringsAndArrays\CompressString.cs" />
+    <Compile Include="StringsAndArrays\IsRotation.cs" />
     <Compile Include="StringsAndArrays\IsUnique.cs" />
-    <Compile Include="PRAMP\LengthOfLongestSubstring.cs" />
+    <Compile Include="MockInterviews\LengthOfLongestSubstring.cs" />
     <Compile Include="Sorting\MergeSort.cs" />
     <Compile Include="QueueWithTwoStacks.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
