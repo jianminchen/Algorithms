@@ -106,22 +106,22 @@ Analyze the time and space complexities of your solution.
      * Driver program to test above function     *
      *********************************************/
 
-    public static void Main(String[] args)
-    {
+    //public static void Main(String[] args)
+    //{
 
-        // Create a Binary Search Tree
-        BinarySearchTree bst = new BinarySearchTree();
-        bst.insert(20);
-        bst.insert(9);
-        bst.insert(25);
-        bst.insert(5);
-        bst.insert(12);
-        bst.insert(11);
-        bst.insert(14);
+    //    // Create a Binary Search Tree
+    //    BinarySearchTree bst = new BinarySearchTree();
+    //    bst.insert(20);
+    //    bst.insert(9);
+    //    bst.insert(25);
+    //    bst.insert(5);
+    //    bst.insert(12);
+    //    bst.insert(11);
+    //    bst.insert(14);
 
-        int result = bst.findLargestSmallerKey(17);
-        Console.WriteLine("Largest smaller number is " + result);
-        Console.ReadKey();
-    }
+    //    int result = bst.findLargestSmallerKey(17);
+    //    Console.WriteLine("Largest smaller number is " + result);
+    //    Console.ReadKey();
+    //}
 }
 
