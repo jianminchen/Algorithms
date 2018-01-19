@@ -44,6 +44,8 @@
   <ItemGroup>
     <Compile Include="AddTwoNumbers.cs" />
     <Compile Include="PRAMP\FindDuplicates.cs" />
+    <Compile Include="PRAMP\GetCheapestCost.cs" />
+    <Compile Include="PRAMP\LargestSmallerBSTKey.cs" />
     <Compile Include="PRAMP\MergingPackages.cs" />
     <Compile Include="Sorting\QuickSort.cs" />
     <Compile Include="StringManipulation\CheckPermutation.cs" />
