@@ -8,17 +8,6 @@ namespace Algorithms.LinkedLists
 {
     class KthToLast
     {
-        private class Node
-        {
-            public int Data { get; set; }
-            public Node Next { get; set; }
-            public Node(int value)
-            {
-                this.Data = value;
-                this.Next = null;
-            }
-        }
-
         private static Node KthFromLast(Node head, int k)
         {
             Node first = head;
