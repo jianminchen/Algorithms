@@ -60,23 +60,23 @@ Constraints:
         return result.ToArray();
     }
 
-    static void Main(string[] args)
-    {
-        /*
-        4,4,1      lim=5
-        */
-        //int[] arr = new int[] { 4, 6, 10, 15, 16 };
-        //int lim = 21;
+    //static void Main(string[] args)
+    //{
+    //    /*
+    //    4,4,1      lim=5
+    //    */
+    //    //int[] arr = new int[] { 4, 6, 10, 15, 16 };
+    //    //int lim = 21;
 
-        int[] arr = new int[] { 4, 4, 1 };
-        int lim = 5;
-        var result = GetIndicesOfItemWeights(arr, lim);
-        foreach (var element in result)
-        {
-            Console.WriteLine(element);
-        }
+    //    int[] arr = new int[] { 4, 4, 1 };
+    //    int lim = 5;
+    //    var result = GetIndicesOfItemWeights(arr, lim);
+    //    foreach (var element in result)
+    //    {
+    //        Console.WriteLine(element);
+    //    }
 
-        Console.ReadKey();
-    }
+    //    Console.ReadKey();
+    //}
 }
 

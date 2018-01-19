@@ -49,11 +49,15 @@
     <Compile Include="StringManipulation\CheckPermutation.cs" />
     <Compile Include="GenericStack.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
+    <Compile Include="StringManipulation\CompressString.cs" />
     <Compile Include="StringManipulation\IsUnique.cs" />
     <Compile Include="PRAMP\LengthOfLongestSubstring.cs" />
     <Compile Include="Sorting\MergeSort.cs" />
     <Compile Include="QueueWithTwoStacks.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
+    <Compile Include="StringManipulation\OneEditAway.cs" />
+    <Compile Include="StringManipulation\PalindromePermutation.cs" />
+    <Compile Include="StringManipulation\RotateMatrix.cs" />
     <Compile Include="StringManipulation\URLify.cs" />
     <Compile Include="TwoSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
