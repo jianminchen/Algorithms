@@ -8,22 +8,22 @@ namespace Playground
 {
     class RotateMatrix
     {
-        public static void Main(string[] args)
-        {
-            int[,] input = new int[4, 4];
-            int count = 0;
-            for (int i = 0; i < 4; i++)
-            {
-                for (int j = 0; j < 4; j++)
-                {
-                    input[i, j] = count++;
-                }
-            }
+        //public static void Main(string[] args)
+        //{
+        //    int[,] input = new int[4, 4];
+        //    int count = 0;
+        //    for (int i = 0; i < 4; i++)
+        //    {
+        //        for (int j = 0; j < 4; j++)
+        //        {
+        //            input[i, j] = count++;
+        //        }
+        //    }
 
-            Rotate(input, 4, 4);
+        //    Rotate(input, 4, 4);
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
 
         private static void Rotate(int[,] input, int rows, int cols)
         {
