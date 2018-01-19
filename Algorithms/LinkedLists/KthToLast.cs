@@ -44,26 +44,26 @@ namespace Algorithms.LinkedLists
             return first;
         }
 
-        public static void Main(string[] args)
-        {
-            // Construct linked list
-            Node head = new Node(5);
-            head.Next = new Node(3);
-            head.Next.Next = new Node(5);
-            head.Next.Next.Next = new Node(1);
-            head.Next.Next.Next.Next = new Node(3);
-            head.Next.Next.Next.Next.Next = new Node(5);
-            head.Next.Next.Next.Next.Next.Next = new Node(7);
+        //public static void Main(string[] args)
+        //{
+        //    // Construct linked list
+        //    Node head = new Node(5);
+        //    head.Next = new Node(3);
+        //    head.Next.Next = new Node(5);
+        //    head.Next.Next.Next = new Node(1);
+        //    head.Next.Next.Next.Next = new Node(3);
+        //    head.Next.Next.Next.Next.Next = new Node(5);
+        //    head.Next.Next.Next.Next.Next.Next = new Node(7);
 
-            var result = KthFromLast(head, 4);
-            if (result != null)
-            {
-                Console.WriteLine(result.Data);
-            }
-            else
-                Console.WriteLine("null");
+        //    var result = KthFromLast(head, 4);
+        //    if (result != null)
+        //    {
+        //        Console.WriteLine(result.Data);
+        //    }
+        //    else
+        //        Console.WriteLine("null");
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
     }
 }
