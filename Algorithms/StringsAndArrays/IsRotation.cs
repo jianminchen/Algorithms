@@ -30,13 +30,13 @@ namespace Algorithms.StringsAndArrays
                 return false;
         }
 
-        public static void Main(string[] args)
-        {
-            string s1 = "helloworld";
-            string s2 = "worlhdello";
-            bool result = IsRotated(s1, s2);
-            Console.WriteLine(result);
-            Console.ReadKey();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    string s1 = "helloworld";
+        //    string s2 = "worlhdello";
+        //    bool result = IsRotated(s1, s2);
+        //    Console.WriteLine(result);
+        //    Console.ReadKey();
+        //}
     }
 }
