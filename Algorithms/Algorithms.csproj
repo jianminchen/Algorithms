@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddTwoNumbers.cs" />
+    <Compile Include="LinkedLists\KthToLast.cs" />
     <Compile Include="LinkedLists\RemoveDuplicates.cs" />
     <Compile Include="MockInterviews\FindDuplicates.cs" />
     <Compile Include="MockInterviews\GetCheapestCost.cs" />
