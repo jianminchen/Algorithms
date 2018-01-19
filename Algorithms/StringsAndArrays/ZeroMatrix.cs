@@ -50,25 +50,25 @@ namespace Algorithms.StringsAndArrays
             }
         }
 
-        public static void Main(string[] args)
-        {
-            int[,] matrix = new int[4, 4] { { 1,1,0,1}, {0,1,1,1 }, {1,1,1,1 }, {1,1,1,1} };
-            /*
-             * 1 1 0 1
-             * 0 1 1 1
-             * 1 1 1 1
-             * 1 1 1 1
-             * */
-            ConvertToZeroes(matrix, 4,4);
-            for(int i = 0; i< 4;i++)
-            {
-                for(int j = 0; j< 4;j++)
-                {
-                    Console.WriteLine("matrix[{0}][{1}]={2}", i, j, matrix[i,j]);
-                }
-            }
+        //public static void Main(string[] args)
+        //{
+        //    int[,] matrix = new int[4, 4] { { 1,1,0,1}, {0,1,1,1 }, {1,1,1,1 }, {1,1,1,1} };
+        //    /*
+        //     * 1 1 0 1
+        //     * 0 1 1 1
+        //     * 1 1 1 1
+        //     * 1 1 1 1
+        //     * */
+        //    ConvertToZeroes(matrix, 4,4);
+        //    for(int i = 0; i< 4;i++)
+        //    {
+        //        for(int j = 0; j< 4;j++)
+        //        {
+        //            Console.WriteLine("matrix[{0}][{1}]={2}", i, j, matrix[i,j]);
+        //        }
+        //    }
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
     }
 }
