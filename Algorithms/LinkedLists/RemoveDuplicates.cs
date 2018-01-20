@@ -8,17 +8,6 @@ namespace Algorithms.LinkedLists
 {
     class RemoveDuplicates
     {
-        private class Node
-        {
-            public int Data { get; set; }
-            public Node Next { get; set; }
-            public Node(int value)
-            {
-                this.Data = value;
-                this.Next = null;
-            }
-        }
-
         private static void RemoveDups(Node head)
         {
             HashSet<int> map = new HashSet<int>();

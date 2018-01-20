@@ -8,17 +8,6 @@ namespace Algorithms.LinkedLists
 {
     class DeleteNode
     {
-        private class Node
-        {
-            public int Data { get; set; }
-            public Node Next { get; set; }
-            public Node(int value)
-            {
-                this.Data = value;
-                this.Next = null;
-            }
-        }
-
         private static void Delete(Node node)
         {
             //cannot be the last node as we are given access to only the node to be deleted
@@ -33,25 +22,27 @@ namespace Algorithms.LinkedLists
             }
         }
 
-        public static void Main(string[] args)
-        {
-            // Construct linked list
-            Node head = new Node(5);
-            head.Next = new Node(3);
-            head.Next.Next = new Node(5);
-            head.Next.Next.Next = new Node(1);
-            head.Next.Next.Next.Next = new Node(3);
-            head.Next.Next.Next.Next.Next = new Node(5);
-            head.Next.Next.Next.Next.Next.Next = new Node(7);
 
-            Delete(head.Next.Next);
-            while (head != null)
-            {
-                Console.WriteLine(head.Data);
-                head = head.Next;
-            }
+        //public static void Main(string[] args)
+        //{
+        //    // Construct linked list
+        //    Node head = new Node(5);
+        //    head.Next = new Node(3);
+        //    head.Next.Next = new Node(5);
+        //    head.Next.Next.Next = new Node(1);
+        //    head.Next.Next.Next.Next = new Node(3);
+        //    head.Next.Next.Next.Next.Next = new Node(5);
+        //    head.Next.Next.Next.Next.Next.Next = new Node(7);
 
-            Console.ReadKey();
-        }
+        //    Delete(head.Next.Next);
+        //    while (head != null)
+        //    {
+        //        Console.WriteLine(head.Data);
+        //        head = head.Next;
+        //    }
+
+        //    Console.ReadKey();
+        //}
+
     }
 }
