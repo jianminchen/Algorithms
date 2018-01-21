@@ -31,25 +31,25 @@ namespace Algorithms.LinkedLists
             }
         }
 
-        public static void Main(string[] args)
-        {
-            // Construct linked list
-            Node head = new Node(7);
-            head.Next = new Node(3);
-            head.Next.Next = new Node(2);
-            head.Next.Next.Next = new Node(8);
-            head.Next.Next.Next.Next = new Node(4);
-            head.Next.Next.Next.Next.Next = new Node(5);
-            head.Next.Next.Next.Next.Next.Next = new Node(1);
+        //public static void Main(string[] args)
+        //{
+        //    // Construct linked list
+        //    Node head = new Node(7);
+        //    head.Next = new Node(3);
+        //    head.Next.Next = new Node(2);
+        //    head.Next.Next.Next = new Node(8);
+        //    head.Next.Next.Next.Next = new Node(4);
+        //    head.Next.Next.Next.Next.Next = new Node(5);
+        //    head.Next.Next.Next.Next.Next.Next = new Node(1);
 
-            PartitionList(head, 5);
-            while (head != null)
-            {
-                Console.WriteLine(head.Data);
-                head = head.Next;
-            }
+        //    PartitionList(head, 5);
+        //    while (head != null)
+        //    {
+        //        Console.WriteLine(head.Data);
+        //        head = head.Next;
+        //    }
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
     }
 }
