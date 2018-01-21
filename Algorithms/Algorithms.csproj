@@ -53,16 +53,16 @@
     <Compile Include="MockInterviews\LargestSmallerBSTKey.cs" />
     <Compile Include="MockInterviews\MergingPackages.cs" />
     <Compile Include="Sorting\QuickSort.cs" />
-    <Compile Include="Stacks\3StacksInArray.cs" />
+    <Compile Include="Stacks_Queues\3StacksInArray.cs" />
     <Compile Include="StringsAndArrays\CheckPermutation.cs" />
-    <Compile Include="Stacks\GenericStack.cs" />
+    <Compile Include="Stacks_Queues\GenericStack.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
     <Compile Include="StringsAndArrays\CompressString.cs" />
     <Compile Include="StringsAndArrays\IsRotation.cs" />
     <Compile Include="StringsAndArrays\IsUnique.cs" />
     <Compile Include="MockInterviews\LengthOfLongestSubstring.cs" />
     <Compile Include="Sorting\MergeSort.cs" />
-    <Compile Include="Queues\QueueWithTwoStacks.cs" />
+    <Compile Include="Stacks_Queues\QueueWithTwoStacks.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="StringsAndArrays\OneEditAway.cs" />
     <Compile Include="StringsAndArrays\PalindromePermutation.cs" />
@@ -71,6 +71,8 @@
     <Compile Include="StringsAndArrays\ZeroMatrix.cs" />
     <Compile Include="StringsAndArrays\TwoSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Trees_Graphs\RouteBetweenNodesInGraph.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
