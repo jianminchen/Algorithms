@@ -69,26 +69,26 @@ namespace Algorithms.Stacks
             }
         }
 
-        public static void Main(string[] args)
-        {
-            MultiStack multiStack = new MultiStack(5, 3);
-            multiStack.Push(6, 2);
-            multiStack.Push(11, 1);
-            multiStack.Push(1, 0);
-            multiStack.Pop(2);
-            multiStack.Push(6, 1);
-            multiStack.Push(11, 2);
-            multiStack.Push(1, 0);
-            multiStack.Pop(2);
-            multiStack.Pop(1);
-            multiStack.Push(6, 2);
-            multiStack.Push(11, 0);
-            multiStack.Push(1, 1);
-            multiStack.Push(6, 2);
-            multiStack.Push(11, 0);
-            multiStack.Push(1, 1);
+        //public static void Main(string[] args)
+        //{
+        //    MultiStack multiStack = new MultiStack(5, 3);
+        //    multiStack.Push(6, 2);
+        //    multiStack.Push(11, 1);
+        //    multiStack.Push(1, 0);
+        //    multiStack.Pop(2);
+        //    multiStack.Push(6, 1);
+        //    multiStack.Push(11, 2);
+        //    multiStack.Push(1, 0);
+        //    multiStack.Pop(2);
+        //    multiStack.Pop(1);
+        //    multiStack.Push(6, 2);
+        //    multiStack.Push(11, 0);
+        //    multiStack.Push(1, 1);
+        //    multiStack.Push(6, 2);
+        //    multiStack.Push(11, 0);
+        //    multiStack.Push(1, 1);
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
     }
 }

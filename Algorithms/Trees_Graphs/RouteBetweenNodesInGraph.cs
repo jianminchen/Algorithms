@@ -24,6 +24,7 @@ namespace Algorithms.Trees_Graphs
         {
             public int Value { get; set; }
             public List<GraphNode> AdjacentNodes { get; set; } 
+            public State State { get; set; }
 
             public GraphNode(int value)
             {
@@ -49,20 +50,56 @@ namespace Algorithms.Trees_Graphs
 
             node4.AdjacentNodes.Add(node5);
             node4.AdjacentNodes.Add(node3);
+            node5.AdjacentNodes.Add(node1);
             graph.Nodes.Add(node1);
             graph.Nodes.Add(node2);
             graph.Nodes.Add(node3);
             graph.Nodes.Add(node4);
             graph.Nodes.Add(node5);
 
-            bool result = Search(graph, node3, node5);
+            /*
+             * 1 -> 2, 3
+             * 2 -> 4
+             * 4 -> 3,5
+             * 5 -> 1
+             * */
+
+            bool result = Search(graph, node4, node1);
             Console.WriteLine(result);
             Console.ReadKey();
         }
 
         static bool Search(Graph graph, GraphNode start, GraphNode end)
         {
+            if (start == end)
+                return true;
+
             //TODO implement the logic
+            foreach(var node in graph.Nodes)
+            {
+                node.State = State.NotVisited;
+            }
+
+            Queue<GraphNode> queue = new Queue<GraphNode>();
+            queue.Enqueue(start);
+            while(queue.Count > 0)
+            {
+                GraphNode node = queue.Dequeue();
+                if(node == end)
+                { return true; }
+                else
+                {
+                    node.State = State.Visited;
+                    foreach(var adjacentNode in node.AdjacentNodes)
+                    {
+                        if(adjacentNode.State == State.NotVisited)
+                        {
+                            queue.Enqueue(adjacentNode);
+                        }
+                    }
+                }
+            }
+
             return false;
         }
     }
