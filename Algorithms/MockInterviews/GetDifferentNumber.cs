@@ -49,17 +49,17 @@ output: 4
             return arr.Length;
         }
 
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
 
-            int[] input = new int[] { 4, 1, 0, 3 };
-            var result = GetNumber(input);
-            System.Console.WriteLine(result);
-            Console.ReadKey();
-            // input 4, 1, 0, 3
-            // after sorting : 0,1,3,4
-            // 2
-            //  output 2
-        }
+        //    int[] input = new int[] { 4, 1, 0, 3 };
+        //    var result = GetNumber(input);
+        //    System.Console.WriteLine(result);
+        //    Console.ReadKey();
+        //    // input 4, 1, 0, 3
+        //    // after sorting : 0,1,3,4
+        //    // 2
+        //    //  output 2
+        //}
     }
 }

@@ -48,6 +48,7 @@
     <Compile Include="LinkedLists\Node.cs" />
     <Compile Include="LinkedLists\Partition.cs" />
     <Compile Include="LinkedLists\RemoveDuplicates.cs" />
+    <Compile Include="MockInterviews\DeletionDistance.cs" />
     <Compile Include="MockInterviews\FindDuplicates.cs" />
     <Compile Include="MockInterviews\GetCheapestCost.cs" />
     <Compile Include="MockInterviews\GetDifferentNumber.cs" />
