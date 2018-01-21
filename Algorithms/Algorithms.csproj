@@ -50,6 +50,7 @@
     <Compile Include="LinkedLists\RemoveDuplicates.cs" />
     <Compile Include="MockInterviews\FindDuplicates.cs" />
     <Compile Include="MockInterviews\GetCheapestCost.cs" />
+    <Compile Include="MockInterviews\GetDifferentNumber.cs" />
     <Compile Include="MockInterviews\LargestSmallerBSTKey.cs" />
     <Compile Include="MockInterviews\MergingPackages.cs" />
     <Compile Include="Sorting\QuickSort.cs" />

@@ -31,12 +31,12 @@ namespace Algorithms.Trees_Graphs
             return midNode;
         }
 
-        public static void Main(string[] args)
-        {
-            int[] input = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-            Node root = CreateBST(input, 0, 8);
+        //public static void Main(string[] args)
+        //{
+        //    int[] input = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+        //    Node root = CreateBST(input, 0, 8);
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
     }
 }
