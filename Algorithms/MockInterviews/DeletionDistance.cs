@@ -65,13 +65,13 @@ namespace Algorithms.MockInterviews
             return memo[str1.Length, str2.Length];
         }
 
-        static void Main(string[] args)
-        {
-            string str1 = "dog";
-            string str2 = "frog";
+        //static void Main(string[] args)
+        //{
+        //    string str1 = "dog";
+        //    string str2 = "frog";
 
-            var deletionDistance = DeletionDistanceOptimal(str1, str2);
-            Console.WriteLine(deletionDistance);
-        }
+        //    var deletionDistance = DeletionDistanceOptimal(str1, str2);
+        //    Console.WriteLine(deletionDistance);
+        //}
     }
 }
