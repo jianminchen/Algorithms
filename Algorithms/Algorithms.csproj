@@ -75,6 +75,7 @@
     <Compile Include="StringsAndArrays\TwoSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Trees_Graphs\BSTFromSortedArray.cs" />
+    <Compile Include="Trees_Graphs\ListOfDepths.cs" />
     <Compile Include="Trees_Graphs\RouteBetweenNodesInGraph.cs" />
   </ItemGroup>
   <ItemGroup />

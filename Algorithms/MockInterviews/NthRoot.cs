@@ -39,11 +39,11 @@ namespace Algorithms.MockInterviews
             return approxRoot;
         }
 
-        static void Main(string[] args)
-        {
-            var result = Root(27, 3);
-            Console.WriteLine(result);
-            Console.ReadKey();
-        }
+        //static void Main(string[] args)
+        //{
+        //    var result = Root(27, 3);
+        //    Console.WriteLine(result);
+        //    Console.ReadKey();
+        //}
     }
 }
