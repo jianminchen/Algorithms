@@ -50,27 +50,27 @@ namespace Algorithms.Trees_Graphs
             GetLevelLists(node.Right, lists, level + 1);
         }
 
-        public static void Main(string[] args)
-        {
-            TreeNode root = new TreeNode(10);
-            TreeNode l1Node1 = new TreeNode(15);
-            TreeNode l1Node2 = new TreeNode(20);
-            root.Left = l1Node1;
-            root.Right = l1Node2;
+        //public static void Main(string[] args)
+        //{
+        //    TreeNode root = new TreeNode(10);
+        //    TreeNode l1Node1 = new TreeNode(15);
+        //    TreeNode l1Node2 = new TreeNode(20);
+        //    root.Left = l1Node1;
+        //    root.Right = l1Node2;
 
-            TreeNode l2Node1 = new TreeNode(25);
-            TreeNode l2Node2 = new TreeNode(30);
-            TreeNode l2Node3 = new TreeNode(35);
-            TreeNode l2Node4 = new TreeNode(40);
+        //    TreeNode l2Node1 = new TreeNode(25);
+        //    TreeNode l2Node2 = new TreeNode(30);
+        //    TreeNode l2Node3 = new TreeNode(35);
+        //    TreeNode l2Node4 = new TreeNode(40);
 
-            root.Left.Left = l2Node1;
-            root.Left.Right = l2Node2;
-            root.Right.Left = l2Node3;
-            root.Right.Right = l2Node4;
+        //    root.Left.Left = l2Node1;
+        //    root.Left.Right = l2Node2;
+        //    root.Right.Left = l2Node3;
+        //    root.Right.Right = l2Node4;
 
-            var result = GetLevelLists(root);
+        //    var result = GetLevelLists(root);
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
     }
 }
