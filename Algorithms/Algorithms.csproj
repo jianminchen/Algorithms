@@ -78,6 +78,7 @@
     <Compile Include="Trees_Graphs\BSTFromSortedArray.cs" />
     <Compile Include="Trees_Graphs\ListOfDepths.cs" />
     <Compile Include="Trees_Graphs\RouteBetweenNodesInGraph.cs" />
+    <Compile Include="Trees_Graphs\ValidateBST.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
