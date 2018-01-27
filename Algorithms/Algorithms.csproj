@@ -54,6 +54,7 @@
     <Compile Include="MockInterviews\GetDifferentNumber.cs" />
     <Compile Include="MockInterviews\BudgetAllocation.cs" />
     <Compile Include="MockInterviews\LargestSmallerBSTKey.cs" />
+    <Compile Include="MockInterviews\MatrixSpiralCopy.cs" />
     <Compile Include="MockInterviews\MergingPackages.cs" />
     <Compile Include="MockInterviews\NthRoot.cs" />
     <Compile Include="Sorting\QuickSort.cs" />

@@ -85,42 +85,42 @@ namespace Algorithms.Trees_Graphs
             return node;
         }
 
-        public static void Main(string[] args)
-        {
-            /*
-             *                         10
-             *                     5          20
-             *                   3   7     15     40
-             * */
-            // Positive case
-            TreeNode root = new TreeNode(10);
-            TreeNode l1Node1 = new TreeNode(5);
-            l1Node1.Parent = root;
-            TreeNode l1Node2 = new TreeNode(20);
-            l1Node2.Parent = root;
-            root.Left = l1Node1;
-            root.Right = l1Node2;
+        //public static void Main(string[] args)
+        //{
+        //    /*
+        //     *                         10
+        //     *                     5          20
+        //     *                   3   7     15     40
+        //     * */
+        //    // Positive case
+        //    TreeNode root = new TreeNode(10);
+        //    TreeNode l1Node1 = new TreeNode(5);
+        //    l1Node1.Parent = root;
+        //    TreeNode l1Node2 = new TreeNode(20);
+        //    l1Node2.Parent = root;
+        //    root.Left = l1Node1;
+        //    root.Right = l1Node2;
 
-            TreeNode l2Node1 = new TreeNode(3);
-            l2Node1.Parent = root.Left;
-            TreeNode l2Node2 = new TreeNode(7);
-            l2Node2.Parent = root.Left;
-            TreeNode l2Node3 = new TreeNode(15);
-            l2Node3.Parent = root.Right;
-            TreeNode l2Node4 = new TreeNode(40);
-            l2Node4.Parent = root.Right;
+        //    TreeNode l2Node1 = new TreeNode(3);
+        //    l2Node1.Parent = root.Left;
+        //    TreeNode l2Node2 = new TreeNode(7);
+        //    l2Node2.Parent = root.Left;
+        //    TreeNode l2Node3 = new TreeNode(15);
+        //    l2Node3.Parent = root.Right;
+        //    TreeNode l2Node4 = new TreeNode(40);
+        //    l2Node4.Parent = root.Right;
 
-            root.Left.Left = l2Node1;
-            root.Left.Right = l2Node2;
-            root.Right.Left = l2Node3;
-            root.Right.Right = l2Node4;
-            var result = Successor(root);  // expected 15
-            //var result = Successor(l2Node2); // expected 10
-            //var result = Successor(l2Node1); // expected 5
-            //var result = Successor(l2Node4); //expected null
+        //    root.Left.Left = l2Node1;
+        //    root.Left.Right = l2Node2;
+        //    root.Right.Left = l2Node3;
+        //    root.Right.Right = l2Node4;
+        //    var result = Successor(root);  // expected 15
+        //    //var result = Successor(l2Node2); // expected 10
+        //    //var result = Successor(l2Node1); // expected 5
+        //    //var result = Successor(l2Node4); //expected null
 
-            Console.WriteLine(result != null ? result.Value.ToString() : "Null");
-            Console.ReadKey();
-        }
+        //    Console.WriteLine(result != null ? result.Value.ToString() : "Null");
+        //    Console.ReadKey();
+        //}
     }
 }
