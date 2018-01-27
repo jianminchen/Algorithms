@@ -25,8 +25,8 @@ class GetCheapestCost
 {
     public class Node
     {
-        public int cost;
-        public Node[] children;
+        public int Cost { get; set; }
+        public Node[] Children { get; set; }
         //public Node parent;
     }
 
@@ -37,16 +37,16 @@ class GetCheapestCost
             return 0;
         }
 
-        if (rootNode.children == null || rootNode.children.Length == 0)
+        if (rootNode.Children == null || rootNode.Children.Length == 0)
         {
-            return rootNode.cost;
+            return rootNode.Cost;
         }
 
         // your code goes here
         int minCost = int.MaxValue;
-        foreach (var child in rootNode.children)
+        foreach (var child in rootNode.Children)
         {
-            var childMinCost = rootNode.cost + getCheapestCost(child);
+            var childMinCost = rootNode.Cost + getCheapestCost(child);
             if (childMinCost < minCost)
             {
                 minCost = childMinCost;

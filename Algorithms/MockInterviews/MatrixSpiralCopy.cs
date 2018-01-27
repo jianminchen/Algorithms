@@ -51,35 +51,35 @@ class MatrixSpiralCopy
         return result;
     }
 
-    static void Main(string[] args)
-    {
-        //int[,] inputMatrix = new int[4, 5];
-        //for (int i = 0; i < inputMatrix.GetLength(0); i++)
-        //{
-        //    for (int j = 0; j < inputMatrix.GetLength(1); j++)
-        //    {
-        //        inputMatrix[i, j] = inputMatrix.GetLength(1) * i + j;
-        //    }
-        //}
+    //static void Main(string[] args)
+    //{
+    //    //int[,] inputMatrix = new int[4, 5];
+    //    //for (int i = 0; i < inputMatrix.GetLength(0); i++)
+    //    //{
+    //    //    for (int j = 0; j < inputMatrix.GetLength(1); j++)
+    //    //    {
+    //    //        inputMatrix[i, j] = inputMatrix.GetLength(1) * i + j;
+    //    //    }
+    //    //}
 
-        //int[,] inputMatrix = new int[1, 1];
-        //inputMatrix[0, 0] = 1;
+    //    //int[,] inputMatrix = new int[1, 1];
+    //    //inputMatrix[0, 0] = 1;
 
-        int[,] inputMatrix = new int[2, 5];
-        for (int i = 0; i < inputMatrix.GetLength(0); i++)
-        {
-            for (int j = 0; j < inputMatrix.GetLength(1); j++)
-            {
-                inputMatrix[i, j] = inputMatrix.GetLength(1) * i + j;
-            }
-        }
+    //    int[,] inputMatrix = new int[2, 5];
+    //    for (int i = 0; i < inputMatrix.GetLength(0); i++)
+    //    {
+    //        for (int j = 0; j < inputMatrix.GetLength(1); j++)
+    //        {
+    //            inputMatrix[i, j] = inputMatrix.GetLength(1) * i + j;
+    //        }
+    //    }
 
 
-        var result = SpiralCopy(inputMatrix);
-        for (int i = 0; i < result.Length; i++)
-        {
-            Console.WriteLine(result[i]);
-        }
-    }
+    //    var result = SpiralCopy(inputMatrix);
+    //    for (int i = 0; i < result.Length; i++)
+    //    {
+    //        Console.WriteLine(result[i]);
+    //    }
+    //}
 }
 
