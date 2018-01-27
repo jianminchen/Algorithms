@@ -47,13 +47,13 @@ namespace Algorithms.MockInterviews
             return newInput[count+1] + (-surplus / (count + 1));
         }
 
-        public static void Main(string[] args)
-        {
-            double[] input = new double[] { 2, 100, 50, 120, 1000 };
-            double newBudget = 190;
-            var result = FindGrantsCap(input, 190);
-            Console.WriteLine(result);
-            Console.ReadKey();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    double[] input = new double[] { 2, 100, 50, 120, 1000 };
+        //    //double newBudget = 190;
+        //    var result = FindGrantsCap(input, 190);
+        //    Console.WriteLine(result);
+        //    Console.ReadKey();
+        //}
     }
 }
