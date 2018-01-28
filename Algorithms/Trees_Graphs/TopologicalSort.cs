@@ -141,40 +141,40 @@ Output: f, e, a, b, d, c
             return sortedProjects.ToArray();
         }
 
-        static void Main(string[] args)
-        {
-            //char[] projects = new char[6] { 'a', 'b', 'c', 'd', 'e', 'f' };
-            //List<Tuple<char, char>> dependencies = new List<Tuple<char, char>>();
-            //dependencies.Add(new Tuple<char, char>('a', 'd'));
-            //dependencies.Add(new Tuple<char, char>('f', 'b'));
-            //dependencies.Add(new Tuple<char, char>('b', 'd'));
-            //dependencies.Add(new Tuple<char, char>('f', 'a'));
-            //dependencies.Add(new Tuple<char, char>('d', 'c'));
+        //static void Main(string[] args)
+        //{
+        //    //char[] projects = new char[6] { 'a', 'b', 'c', 'd', 'e', 'f' };
+        //    //List<Tuple<char, char>> dependencies = new List<Tuple<char, char>>();
+        //    //dependencies.Add(new Tuple<char, char>('a', 'd'));
+        //    //dependencies.Add(new Tuple<char, char>('f', 'b'));
+        //    //dependencies.Add(new Tuple<char, char>('b', 'd'));
+        //    //dependencies.Add(new Tuple<char, char>('f', 'a'));
+        //    //dependencies.Add(new Tuple<char, char>('d', 'c'));
 
-            //// output f e a b d c
+        //    //// output f e a b d c
 
-            // case 2
-            char[] projects = new char[7] { 'a', 'b', 'c', 'd', 'e', 'f', 'g' };
-            List<Tuple<char, char>> dependencies = new List<Tuple<char, char>>();
-            dependencies.Add(new Tuple<char, char>('f', 'c'));
-            dependencies.Add(new Tuple<char, char>('f', 'b'));
-            dependencies.Add(new Tuple<char, char>('f', 'a'));
-            dependencies.Add(new Tuple<char, char>('b', 'a'));
-            dependencies.Add(new Tuple<char, char>('c', 'a'));
-            dependencies.Add(new Tuple<char, char>('b', 'e'));
-            dependencies.Add(new Tuple<char, char>('a', 'e'));
-            dependencies.Add(new Tuple<char, char>('d', 'g'));
+        //    // case 2
+        //    char[] projects = new char[7] { 'a', 'b', 'c', 'd', 'e', 'f', 'g' };
+        //    List<Tuple<char, char>> dependencies = new List<Tuple<char, char>>();
+        //    dependencies.Add(new Tuple<char, char>('f', 'c'));
+        //    dependencies.Add(new Tuple<char, char>('f', 'b'));
+        //    dependencies.Add(new Tuple<char, char>('f', 'a'));
+        //    dependencies.Add(new Tuple<char, char>('b', 'a'));
+        //    dependencies.Add(new Tuple<char, char>('c', 'a'));
+        //    dependencies.Add(new Tuple<char, char>('b', 'e'));
+        //    dependencies.Add(new Tuple<char, char>('a', 'e'));
+        //    dependencies.Add(new Tuple<char, char>('d', 'g'));
 
-            // output f e a b d c
-            var graph = BuildGraph(projects, dependencies);
-            var result = Sort(graph);
+        //    // output f e a b d c
+        //    var graph = BuildGraph(projects, dependencies);
+        //    var result = Sort(graph);
 
-            foreach (var item in result)
-            {
-                Console.WriteLine(item);
-            }
+        //    foreach (var item in result)
+        //    {
+        //        Console.WriteLine(item);
+        //    }
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
     }
 }
