@@ -57,6 +57,7 @@
     <Compile Include="MockInterviews\LargestSmallerBSTKey.cs" />
     <Compile Include="MockInterviews\MatrixSpiralCopy.cs" />
     <Compile Include="MockInterviews\MergingPackages.cs" />
+    <Compile Include="MockInterviews\MinimumNumberOfPlatforms.cs" />
     <Compile Include="MockInterviews\NthRoot.cs" />
     <Compile Include="MockInterviews\SudokuSolver.cs" />
     <Compile Include="Sorting\QuickSort.cs" />
