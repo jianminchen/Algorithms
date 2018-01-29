@@ -86,24 +86,24 @@ output: true
         }
         
 
-        public static void Main(string[] args)
-        {
-            /*
-                Test cases
-                ""   "" expected true
-                "aa" "a" expected false
-                "bb" "bb"  expected true
-                "" "a*" expected true
-                "abbdbb" "ab*d" expected false
-                "aba"  "a.a"  expected true
-                "acd" "ab*c" expected true
-                "abaa" "a.*a*" expected true                
-            */
-        string text = "";
-            string pattern = "a*";
-            var result = IsMatch(text, pattern);
-            Console.WriteLine(result);
-            Console.ReadKey();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    /*
+        //        Test cases
+        //        ""   "" expected true
+        //        "aa" "a" expected false
+        //        "bb" "bb"  expected true
+        //        "" "a*" expected true
+        //        "abbdbb" "ab*d" expected false
+        //        "aba"  "a.a"  expected true
+        //        "acd" "ab*c" expected true
+        //        "abaa" "a.*a*" expected true                
+        //    */
+        //string text = "";
+        //    string pattern = "a*";
+        //    var result = IsMatch(text, pattern);
+        //    Console.WriteLine(result);
+        //    Console.ReadKey();
+        //}
     }
 }
