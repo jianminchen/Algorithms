@@ -56,14 +56,14 @@ There are at-most three trains at a time (time between 11:00 to 11:20)
             return maxPlatforms;
         }
 
-        public static void Main(string[] args)
-        {
-            int[] arr = new int[] { 900, 940, 950, 1100, 1500, 1800 };
-            int[] dep = new int[] { 910, 1200, 1120, 1130, 1900, 2000 };
+        //public static void Main(string[] args)
+        //{
+        //    int[] arr = new int[] { 900, 940, 950, 1100, 1500, 1800 };
+        //    int[] dep = new int[] { 910, 1200, 1120, 1130, 1900, 2000 };
 
-            int minimumPlatforms = GetMinimumPlatforms(arr, dep);
-            Console.WriteLine(minimumPlatforms);
-            Console.ReadKey();
-        }
+        //    int minimumPlatforms = GetMinimumPlatforms(arr, dep);
+        //    Console.WriteLine(minimumPlatforms);
+        //    Console.ReadKey();
+        //}
     }
 }
