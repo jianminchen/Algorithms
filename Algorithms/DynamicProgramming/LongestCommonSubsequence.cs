@@ -35,14 +35,14 @@ namespace Algorithms.DynamicProgramming
             return max;
         }
 
-        public static void Main(string[] args)
-        {
-            string first = "ravec";
-            string second = "meavec";
+        //public static void Main(string[] args)
+        //{
+        //    string first = "ravec";
+        //    string second = "meavec";
 
-            int result = LengthOfLongestCommonSubsequence(first, second);
-            Console.WriteLine(result);
-            Console.ReadKey();
-        }
+        //    int result = LengthOfLongestCommonSubsequence(first, second);
+        //    Console.WriteLine(result);
+        //    Console.ReadKey();
+        //}
     }
 }
