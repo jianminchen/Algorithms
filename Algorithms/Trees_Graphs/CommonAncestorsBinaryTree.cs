@@ -76,38 +76,38 @@ namespace Algorithms.Trees_Graphs
             return depth;
         }
 
-        public static void Main(string[] args)
-        {
-            /*
-             *                      20
-             *           10                 30
-             *       5       15
-             *    3     58        47
-             * */
+        //public static void Main(string[] args)
+        //{
+        //    /*
+        //     *                      20
+        //     *           10                 30
+        //     *       5       15
+        //     *    3     58        47
+        //     * */
 
-            TreeNode root = new TreeNode(20, null);
-            TreeNode l1_1 = new TreeNode(10, root);
-            TreeNode l1_2 = new TreeNode(30, root);
-            root.Left = l1_1;
-            root.Right = l1_2;
+        //    TreeNode root = new TreeNode(20, null);
+        //    TreeNode l1_1 = new TreeNode(10, root);
+        //    TreeNode l1_2 = new TreeNode(30, root);
+        //    root.Left = l1_1;
+        //    root.Right = l1_2;
 
-            TreeNode l2_1 = new TreeNode(5, l1_1);
-            TreeNode l2_2 = new TreeNode(15, l1_1);
-            l1_1.Left = l2_1;
-            l1_1.Right = l2_1;
+        //    TreeNode l2_1 = new TreeNode(5, l1_1);
+        //    TreeNode l2_2 = new TreeNode(15, l1_1);
+        //    l1_1.Left = l2_1;
+        //    l1_1.Right = l2_1;
 
-            TreeNode l3_1 = new TreeNode(3, l2_1);
-            TreeNode l3_2 = new TreeNode(58, l2_1);
-            TreeNode l3_3 = new TreeNode(47, l2_2);
-            l2_1.Left = l3_1;
-            l2_1.Right = l3_2;
-            l2_2.Right = l3_3;
+        //    TreeNode l3_1 = new TreeNode(3, l2_1);
+        //    TreeNode l3_2 = new TreeNode(58, l2_1);
+        //    TreeNode l3_3 = new TreeNode(47, l2_2);
+        //    l2_1.Left = l3_1;
+        //    l2_1.Right = l3_2;
+        //    l2_2.Right = l3_3;
 
-            //var result = CommonAncestor(root, l3_1, l3_3);
-            var result = CommonAncestor(root, l3_1, l1_2);
-            Console.WriteLine(result.Value);
+        //    //var result = CommonAncestor(root, l3_1, l3_3);
+        //    var result = CommonAncestor(root, l3_1, l1_2);
+        //    Console.WriteLine(result.Value);
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
     }
 }

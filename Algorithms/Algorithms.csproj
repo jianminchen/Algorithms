@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DynamicProgramming\Fibonacci.cs" />
     <Compile Include="LinkedLists\AddTwoNumbers.cs" />
     <Compile Include="LinkedLists\DeleteNode.cs" />
     <Compile Include="LinkedLists\KthToLast.cs" />
