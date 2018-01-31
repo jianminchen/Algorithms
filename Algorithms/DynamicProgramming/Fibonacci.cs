@@ -26,12 +26,12 @@ namespace Algorithms.DynamicProgramming
             return table[number];
         }
 
-        public static void Main(string[] args)
-        {
-            int i = 10;
-            ulong result = GetFibonacci(i);
-            Console.WriteLine(result);
-            Console.ReadKey();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    int i = 10;
+        //    ulong result = GetFibonacci(i);
+        //    Console.WriteLine(result);
+        //    Console.ReadKey();
+        //}
     }
 }
