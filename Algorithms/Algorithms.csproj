@@ -63,6 +63,7 @@
     <Compile Include="MockInterviews\MergingPackages.cs" />
     <Compile Include="MockInterviews\MinimumNumberOfPlatforms.cs" />
     <Compile Include="MockInterviews\NthRoot.cs" />
+    <Compile Include="MockInterviews\ShiftedArraySearch.cs" />
     <Compile Include="MockInterviews\SudokuSolver.cs" />
     <Compile Include="Sorting\QuickSort.cs" />
     <Compile Include="Stacks_Queues\3StacksInArray.cs" />

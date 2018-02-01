@@ -46,12 +46,12 @@ stairs.
 
         }
 
-        public static void Main(string[] args)
-        {
-            int n = 5;
-            var result = CountWays(5);
-            Console.WriteLine(result);
-            Console.ReadKey();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    int n = 5;
+        //    var result = CountWays(5);
+        //    Console.WriteLine(result);
+        //    Console.ReadKey();
+        //}
     }
 }
