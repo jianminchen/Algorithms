@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="DynamicProgramming\Fibonacci.cs" />
     <Compile Include="DynamicProgramming\LongestCommonSubsequence.cs" />
+    <Compile Include="DynamicProgramming\Multiply.cs" />
     <Compile Include="DynamicProgramming\TripleStep.cs" />
     <Compile Include="LinkedLists\AddTwoNumbers.cs" />
     <Compile Include="LinkedLists\DeleteNode.cs" />

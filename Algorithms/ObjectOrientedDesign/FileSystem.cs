@@ -80,16 +80,16 @@ namespace Algorithms.ObjectOrientedDesign
             }
         }
 
-        public static void Main(string[] args)
-        {
-            Directory root = new Directory("C:", null);
-            Directory childFolder = new Directory("users", root);
-            root.AddChild(childFolder);
-            File firstFile = new File("test.txt", "hello world", childFolder);
-            childFolder.AddChild(firstFile);
+        //public static void Main(string[] args)
+        //{
+        //    Directory root = new Directory("C:", null);
+        //    Directory childFolder = new Directory("users", root);
+        //    root.AddChild(childFolder);
+        //    File firstFile = new File("test.txt", "hello world", childFolder);
+        //    childFolder.AddChild(firstFile);
 
-            root.DeleteChild(childFolder);
-            Console.ReadKey();
-        }
+        //    root.DeleteChild(childFolder);
+        //    Console.ReadKey();
+        //}
     }
 }
