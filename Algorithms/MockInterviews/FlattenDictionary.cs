@@ -79,25 +79,25 @@ output: {
         }
     }
 
-    static void Main(string[] args)
-    {
-        Dictionary<string, object> input = new Dictionary<string, object>();
-        input.Add("Key1", "1");
-        Dictionary<string, object> thirdDictionary = new Dictionary<string, object>();
-        Dictionary<string, object> fourthDictionary = new Dictionary<string, object>();
-        fourthDictionary.Add("d", "3");
-        fourthDictionary.Add("e", "1");
+    //static void Main(string[] args)
+    //{
+    //    Dictionary<string, object> input = new Dictionary<string, object>();
+    //    input.Add("Key1", "1");
+    //    Dictionary<string, object> thirdDictionary = new Dictionary<string, object>();
+    //    Dictionary<string, object> fourthDictionary = new Dictionary<string, object>();
+    //    fourthDictionary.Add("d", "3");
+    //    fourthDictionary.Add("e", "1");
 
-        thirdDictionary.Add("a", "2");
-        thirdDictionary.Add("b", "3");
-        thirdDictionary.Add("c", fourthDictionary);
-        input.Add("Key2", thirdDictionary);
+    //    thirdDictionary.Add("a", "2");
+    //    thirdDictionary.Add("b", "3");
+    //    thirdDictionary.Add("c", fourthDictionary);
+    //    input.Add("Key2", thirdDictionary);
 
-        var result = Flatten(input);
-        foreach (var pair in result)
-        {
-            Console.WriteLine("{0} : {1}", pair.Key, pair.Value);
-        }
-        Console.ReadKey();
-    }
+    //    var result = Flatten(input);
+    //    foreach (var pair in result)
+    //    {
+    //        Console.WriteLine("{0} : {1}", pair.Key, pair.Value);
+    //    }
+    //    Console.ReadKey();
+    //}
 }

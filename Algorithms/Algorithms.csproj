@@ -67,6 +67,7 @@
     <Compile Include="MockInterviews\MergingPackages.cs" />
     <Compile Include="MockInterviews\MinimumNumberOfPlatforms.cs" />
     <Compile Include="MockInterviews\NthRoot.cs" />
+    <Compile Include="MockInterviews\PancakeSort.cs" />
     <Compile Include="MockInterviews\ShiftedArraySearch.cs" />
     <Compile Include="MockInterviews\SudokuSolver.cs" />
     <Compile Include="ObjectOrientedDesign\FileSystem.cs" />
