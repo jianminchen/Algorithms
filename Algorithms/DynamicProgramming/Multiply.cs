@@ -36,10 +36,10 @@ namespace Algorithms.DynamicProgramming
             return result;
         }
 
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(RecMultiply(31, 50));
-            Console.ReadKey();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    Console.WriteLine(RecMultiply(31, 50));
+        //    Console.ReadKey();
+        //}
     }
 }
