@@ -19,20 +19,20 @@ namespace Algorithms.DynamicProgramming
             Move(second, third, first, numberOfDisks - 1);
         }
 
-        public static void Main(string[] args)
-        {
-            Stack<int> first = new Stack<int>();
-            Stack<int> second = new Stack<int>();
-            Stack<int> third = new Stack<int>();
+        //public static void Main(string[] args)
+        //{
+        //    Stack<int> first = new Stack<int>();
+        //    Stack<int> second = new Stack<int>();
+        //    Stack<int> third = new Stack<int>();
 
-            first.Push(1);
-            first.Push(2);
-            first.Push(3);
-            first.Push(4);
-            first.Push(5);
+        //    first.Push(1);
+        //    first.Push(2);
+        //    first.Push(3);
+        //    first.Push(4);
+        //    first.Push(5);
 
-            Move(first, third, second, first.Count);
-            Console.ReadKey();
-        }
+        //    Move(first, third, second, first.Count);
+        //    Console.ReadKey();
+        //}
     }
 }
