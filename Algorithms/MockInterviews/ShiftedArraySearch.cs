@@ -74,12 +74,12 @@ output: 3 #
     //case 3:  4 5 9 12 17 2
 
 
-    static void Main(string[] args)
-    {
-        int[] input = new int[2] { 1, 2 };
-        var result = ShiftedArrSearch(input, 2);
-        Console.WriteLine(result);
-    }
+    //static void Main(string[] args)
+    //{
+    //    int[] input = new int[2] { 1, 2 };
+    //    var result = ShiftedArrSearch(input, 2);
+    //    Console.WriteLine(result);
+    //}
 }
 /*
 [0,1,2,3,4,5], 1  exp = 1

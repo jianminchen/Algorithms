@@ -53,6 +53,7 @@
     <Compile Include="LinkedLists\RemoveDuplicates.cs" />
     <Compile Include="MockInterviews\BasicRegexParser.cs" />
     <Compile Include="MockInterviews\BusiestTimeInMall.cs" />
+    <Compile Include="MockInterviews\DecryptMessages.cs" />
     <Compile Include="MockInterviews\DeletionDistance.cs" />
     <Compile Include="MockInterviews\FindDuplicates.cs" />
     <Compile Include="MockInterviews\GetCheapestCost.cs" />
