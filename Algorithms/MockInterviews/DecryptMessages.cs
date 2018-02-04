@@ -108,11 +108,11 @@ Encrypted message:	d	n	o	t	q
       D[i] = E[i] - D[i-1] - 1;
 
     */
-    public static void Main(string[] args)
-    {
-        string result = Decrypt("dnotq");
-        Console.WriteLine(result);
-        Console.ReadKey();
-    }
+    //public static void Main(string[] args)
+    //{
+    //    string result = Decrypt("dnotq");
+    //    Console.WriteLine(result);
+    //    Console.ReadKey();
+    //}
 }
 
