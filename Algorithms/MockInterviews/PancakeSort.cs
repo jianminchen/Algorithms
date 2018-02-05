@@ -49,16 +49,16 @@ class PancakeSort
         return indexOfMaxElement;
     }
 
-    static void Main(string[] args)
-    {
-        int[] arr = new int[5] { 1, 5, 4, 3, 2 };
-        var result = Sort(arr);
-        foreach (var element in result)
-        {
-            Console.WriteLine(element);
-        }
+    //static void Main(string[] args)
+    //{
+    //    int[] arr = new int[5] { 1, 5, 4, 3, 2 };
+    //    var result = Sort(arr);
+    //    foreach (var element in result)
+    //    {
+    //        Console.WriteLine(element);
+    //    }
 
-        Console.ReadKey();
-    }
+    //    Console.ReadKey();
+    //}
 }
 

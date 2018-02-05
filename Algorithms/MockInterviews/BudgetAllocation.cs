@@ -12,6 +12,31 @@ namespace Algorithms.MockInterviews
      * */
     class BudgetAllocation
     {
+        private static double FindGrantsCapOptimized(double[] input, double newBudget)
+        {
+            if(input == null || input.Length == 0)
+            {
+                return 0;
+            }
+
+            Array.Sort(input);
+            int i = 0;
+            while(i < input.Length)
+            {
+                if((input.Length - i) * input[i] > newBudget)
+                {
+                    return newBudget / (input.Length - i);
+                }
+                else
+                {
+                    newBudget -= input[i];
+                }
+                i++;
+            }
+
+            return input[input.Length - 1];
+        }
+
         private static double FindGrantsCap(double[] input, double newBudget)
         {
             double currentBudget = 0;
@@ -51,7 +76,7 @@ namespace Algorithms.MockInterviews
         //{
         //    double[] input = new double[] { 2, 100, 50, 120, 1000 };
         //    //double newBudget = 190;
-        //    var result = FindGrantsCap(input, 190);
+        //    var result = FindGrantsCapOptimized(input, 190);
         //    Console.WriteLine(result);
         //    Console.ReadKey();
         //}

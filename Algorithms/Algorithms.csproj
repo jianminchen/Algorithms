@@ -54,6 +54,7 @@
     <Compile Include="LinkedLists\Partition.cs" />
     <Compile Include="LinkedLists\RemoveDuplicates.cs" />
     <Compile Include="MockInterviews\BasicRegexParser.cs" />
+    <Compile Include="MockInterviews\BracketMatch.cs" />
     <Compile Include="MockInterviews\BusiestTimeInMall.cs" />
     <Compile Include="MockInterviews\DecryptMessages.cs" />
     <Compile Include="MockInterviews\DeletionDistance.cs" />
