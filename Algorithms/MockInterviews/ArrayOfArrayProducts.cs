@@ -61,16 +61,16 @@ output: [84, 24, 56, 42] # by calculating: [7*3*4, 2*3*4, 2*7*4, 2*7*3]
             return output;
         }
 
-        static void Main(string[] args)
-        {
-            int[] arr = new int[]{2,7,3,4};
-            var result = GetProducts(arr);
-            foreach(var item in result)
-            {
-                Console.WriteLine(item);
-            }
+        //static void Main(string[] args)
+        //{
+        //    int[] arr = new int[]{2,7,3,4};
+        //    var result = GetProducts(arr);
+        //    foreach(var item in result)
+        //    {
+        //        Console.WriteLine(item);
+        //    }
 
-            Console.ReadKey();            
-        }
+        //    Console.ReadKey();            
+        //}
     }
 }
