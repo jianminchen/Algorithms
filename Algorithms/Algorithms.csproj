@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DynamicProgramming\EditDistance.cs" />
     <Compile Include="DynamicProgramming\Fibonacci.cs" />
     <Compile Include="DynamicProgramming\LongestCommonSubsequence.cs" />
     <Compile Include="DynamicProgramming\Multiply.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="LinkedLists\Node.cs" />
     <Compile Include="LinkedLists\Partition.cs" />
     <Compile Include="LinkedLists\RemoveDuplicates.cs" />
+    <Compile Include="MockInterviews\ArrayOfArrayProducts.cs" />
     <Compile Include="MockInterviews\BasicRegexParser.cs" />
     <Compile Include="MockInterviews\BracketMatch.cs" />
     <Compile Include="MockInterviews\BusiestTimeInMall.cs" />

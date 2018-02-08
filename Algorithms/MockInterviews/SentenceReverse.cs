@@ -59,17 +59,17 @@ class SentenceReverse
         arr[endIndex] = tempBuffer;
     }
 
-    static void Main(string[] args)
-    {
-        char[] input = new char[22] { 'p', 'e', 'r', 'f', 'e', 'c', 't', ' ', 'm', 'a', 'k', 'e', 's', ' ', 'p', 'r', 'a', 'c', 't', 'i', 'c', 'e' };
-        var result = ReverseWords(input);
-        foreach (char character in result)
-        {
-            Console.WriteLine(character);
-        }
+    //static void Main(string[] args)
+    //{
+    //    char[] input = new char[22] { 'p', 'e', 'r', 'f', 'e', 'c', 't', ' ', 'm', 'a', 'k', 'e', 's', ' ', 'p', 'r', 'a', 'c', 't', 'i', 'c', 'e' };
+    //    var result = ReverseWords(input);
+    //    foreach (char character in result)
+    //    {
+    //        Console.WriteLine(character);
+    //    }
 
-        Console.ReadKey();
-    }
+    //    Console.ReadKey();
+    //}
 
 
     /*
