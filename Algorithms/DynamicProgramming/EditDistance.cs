@@ -4,29 +4,27 @@ class EditDistance
 {
     public static int minDistance(string A, string B)
     {
-        if (string.IsNullOrEmpty(A))
-        {
-            return B.Length;
-        }
-        if (string.IsNullOrEmpty(B))
-        {
-            return A.Length;
-        }
-
         int[,] table = new int[A.Length + 1, B.Length + 1];
 
-        for (int i = 0; i < A.Length; i++)
+        for (int i = 0; i <= A.Length; i++)
         {
-            for (int j = 0; j < B.Length; j++)
+            for (int j = 0; j <= B.Length; j++)
             {
-
-                if (A[i] == B[j])
+                if (i == 0)
                 {
-                    table[i + 1, j + 1] = table[i, j];
+                    table[i, j] = j;
+                }
+                else if (j == 0)
+                {
+                    table[i, j] = i;
+                }
+                else if (A[i-1] == B[j-1])
+                {
+                    table[i, j] = table[i-1, j-1];
                 }
                 else
                 {
-                    table[i + 1, j + 1] = 1 + Math.Min(table[i + 1, j], table[i, j + 1]);
+                    table[i, j] = 1 + Math.Min(Math.Min(table[i, j-1], table[i-1, j]), table[i-1, j-1]);
                 }
             }
         }
@@ -36,8 +34,8 @@ class EditDistance
 
     //public static void Main(string[] args)
     //{
-    //    string first = "toast";
-    //    string second = "best";
+    //    string first = "sunday";
+    //    string second = "saturday";
 
     //    Console.WriteLine(minDistance(first, second));
     //    Console.ReadKey();

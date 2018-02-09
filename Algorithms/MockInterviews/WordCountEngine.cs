@@ -109,18 +109,18 @@ class WordCountEngine
         return sb.ToString();
     }
 
-    static void Main(string[] args)
-    {
-        string input = "Practice makes perfect.you'll only get Perfect by practice. just practice!";
-        var result = GetWordCountEngine(input);
-        for(int i = 0; i < result.GetLength(0); i++)
-        {
-            Console.WriteLine(result[i, 0]);
-            Console.WriteLine(result[i, 1]);
-        }
+    //static void Main(string[] args)
+    //{
+    //    string input = "Practice makes perfect.you'll only get Perfect by practice. just practice!";
+    //    var result = GetWordCountEngine(input);
+    //    for(int i = 0; i < result.GetLength(0); i++)
+    //    {
+    //        Console.WriteLine(result[i, 0]);
+    //        Console.WriteLine(result[i, 1]);
+    //    }
 
-        Console.ReadKey();
-    }
+    //    Console.ReadKey();
+    //}
 
     /*
     Step 1: Extract tokens from the input sentence. Here we create words only from the list of chars allowed
