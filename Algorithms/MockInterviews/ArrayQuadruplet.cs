@@ -73,17 +73,17 @@ output: [0, 4, 7, 9] # The ordered quadruplet of (7, 4, 0, 9)
             return new int[0];
         }
 
-        static void Main(string[] args)
-        {
-            int[] input = { 2, 7, 4, 0, 9, 5, 1, 3 };
-            int s = 20;
-            var result = FindArrayQuadruplet(input, s);
-            foreach(var element in result)
-            {
-                Console.WriteLine(element);
-            }
+        //static void Main(string[] args)
+        //{
+        //    int[] input = { 2, 7, 4, 0, 9, 5, 1, 3 };
+        //    int s = 20;
+        //    var result = FindArrayQuadruplet(input, s);
+        //    foreach(var element in result)
+        //    {
+        //        Console.WriteLine(element);
+        //    }
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
     }
 }
