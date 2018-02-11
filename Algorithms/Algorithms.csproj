@@ -58,6 +58,7 @@
     <Compile Include="MockInterviews\ArrayQuadruplet.cs" />
     <Compile Include="MockInterviews\BasicRegexParser.cs" />
     <Compile Include="MockInterviews\BracketMatch.cs" />
+    <Compile Include="MockInterviews\BSTSuccessorSearch.cs" />
     <Compile Include="MockInterviews\BusiestTimeInMall.cs" />
     <Compile Include="MockInterviews\DecryptMessages.cs" />
     <Compile Include="MockInterviews\DeletionDistance.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="MockInterviews\GetCheapestCost.cs" />
     <Compile Include="MockInterviews\GetDifferentNumber.cs" />
     <Compile Include="MockInterviews\BudgetAllocation.cs" />
+    <Compile Include="MockInterviews\HTree.cs" />
     <Compile Include="MockInterviews\KMessedArraySort.cs" />
     <Compile Include="MockInterviews\LargestSmallerBSTKey.cs" />
     <Compile Include="MockInterviews\MatrixSpiralCopy.cs" />
