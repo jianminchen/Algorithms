@@ -79,6 +79,7 @@
     <Compile Include="MockInterviews\SentenceReverse.cs" />
     <Compile Include="MockInterviews\ShiftedArraySearch.cs" />
     <Compile Include="MockInterviews\SudokuSolver.cs" />
+    <Compile Include="MockInterviews\TimePlanner.cs" />
     <Compile Include="MockInterviews\WordCountEngine.cs" />
     <Compile Include="ObjectOrientedDesign\FileSystem.cs" />
     <Compile Include="Sorting\QuickSort.cs" />
