@@ -63,6 +63,7 @@
     <Compile Include="MockInterviews\BusiestTimeInMall.cs" />
     <Compile Include="MockInterviews\DecryptMessages.cs" />
     <Compile Include="MockInterviews\DeletionDistance.cs" />
+    <Compile Include="MockInterviews\DroneFlightPlanner.cs" />
     <Compile Include="MockInterviews\FindDuplicates.cs" />
     <Compile Include="MockInterviews\FlattenDictionary.cs" />
     <Compile Include="MockInterviews\GetCheapestCost.cs" />
