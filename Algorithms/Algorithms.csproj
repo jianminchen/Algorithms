@@ -61,6 +61,7 @@
     <Compile Include="MockInterviews\BracketMatch.cs" />
     <Compile Include="MockInterviews\BSTSuccessorSearch.cs" />
     <Compile Include="MockInterviews\BusiestTimeInMall.cs" />
+    <Compile Include="MockInterviews\CheckWaterFlow.cs" />
     <Compile Include="MockInterviews\DecryptMessages.cs" />
     <Compile Include="MockInterviews\DeletionDistance.cs" />
     <Compile Include="MockInterviews\DroneFlightPlanner.cs" />
