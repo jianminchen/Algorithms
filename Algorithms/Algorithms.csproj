@@ -90,6 +90,7 @@
     <Compile Include="MockInterviews\CheckWaterTrap.cs" />
     <Compile Include="MockInterviews\WordCountEngine.cs" />
     <Compile Include="ObjectOrientedDesign\FileSystem.cs" />
+    <Compile Include="Permutations.cs" />
     <Compile Include="Sorting\QuickSort.cs" />
     <Compile Include="Stacks_Queues\3StacksInArray.cs" />
     <Compile Include="StringsAndArrays\CheckPermutation.cs" />
