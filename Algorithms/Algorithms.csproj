@@ -106,6 +106,7 @@
     <Compile Include="Sorting\MergeSort.cs" />
     <Compile Include="Stacks_Queues\QueueWithTwoStacks.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
+    <Compile Include="StringsAndArrays\MajorityElement.cs" />
     <Compile Include="StringsAndArrays\OneEditAway.cs" />
     <Compile Include="StringsAndArrays\PalindromePermutation.cs" />
     <Compile Include="StringsAndArrays\RotateMatrix.cs" />
