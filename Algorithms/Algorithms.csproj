@@ -71,6 +71,7 @@
     <Compile Include="MockInterviews\DroneFlightPlanner.cs" />
     <Compile Include="MockInterviews\FindDuplicates.cs" />
     <Compile Include="MockInterviews\FlattenDictionary.cs" />
+    <Compile Include="MockInterviews\GasStation.cs" />
     <Compile Include="MockInterviews\GetCheapestCost.cs" />
     <Compile Include="MockInterviews\GetDifferentNumber.cs" />
     <Compile Include="MockInterviews\BudgetAllocation.cs" />
