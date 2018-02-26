@@ -48,6 +48,7 @@
     <Compile Include="DynamicProgramming\LongestArithmeticProgression.cs" />
     <Compile Include="DynamicProgramming\LongestCommonSubsequence.cs" />
     <Compile Include="DynamicProgramming\LongestConsecutiveSequence.cs" />
+    <Compile Include="DynamicProgramming\MaximumArea.cs" />
     <Compile Include="DynamicProgramming\Multiply.cs" />
     <Compile Include="DynamicProgramming\TowersOfHanoi.cs" />
     <Compile Include="DynamicProgramming\TripleStep.cs" />
