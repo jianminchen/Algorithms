@@ -109,6 +109,7 @@
     <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="StringsAndArrays\MajorityElement.cs" />
     <Compile Include="StringsAndArrays\MaximumProduct.cs" />
+    <Compile Include="StringsAndArrays\MinStepsInInfiniteGrid.cs" />
     <Compile Include="StringsAndArrays\OneEditAway.cs" />
     <Compile Include="StringsAndArrays\PalindromePermutation.cs" />
     <Compile Include="StringsAndArrays\RotateMatrix.cs" />

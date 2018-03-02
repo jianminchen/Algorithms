@@ -55,13 +55,13 @@ namespace Algorithms.StringsAndArrays
             return maxProduct;
         }
 
-        public static void Main(string[] args)
-        {
-            //int[] input = new int[] { -20, -50, 8, -1, 5, 100, 50 };
-            int[] input = new int[] { -3,-5,-7,-1,0,1,2,3,0,8,7};
-            var result = GetMaxProduct(input);
-            Console.WriteLine(result);
-            Console.ReadKey();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    //int[] input = new int[] { -20, -50, 8, -1, 5, 100, 50 };
+        //    int[] input = new int[] { -3,-5,-7,-1,0,1,2,3,0,8,7};
+        //    var result = GetMaxProduct(input);
+        //    Console.WriteLine(result);
+        //    Console.ReadKey();
+        //}
     }
 }
