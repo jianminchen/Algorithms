@@ -46,14 +46,14 @@ This question is intentionally left slightly vague. Clarify the question by tryi
             return minimum;
         }
 
-        public static void Main(string[] args)
-        {
-            int[] xCoords = new int[] {0,3,7};
-            int[] yCoords = new int[] {0,3,7};
+        //public static void Main(string[] args)
+        //{
+        //    int[] xCoords = new int[] {0,3,7};
+        //    int[] yCoords = new int[] {0,3,7};
 
-            var result = CoverPoints(xCoords, yCoords);
-            Console.WriteLine(result);
-            Console.ReadKey();
-        }
+        //    var result = CoverPoints(xCoords, yCoords);
+        //    Console.WriteLine(result);
+        //    Console.ReadKey();
+        //}
     }
 }
