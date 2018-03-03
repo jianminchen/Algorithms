@@ -116,6 +116,7 @@
     <Compile Include="StringsAndArrays\PalindromePermutation.cs" />
     <Compile Include="StringsAndArrays\RotateMatrix.cs" />
     <Compile Include="StringsAndArrays\URLify.cs" />
+    <Compile Include="StringsAndArrays\WaveArray.cs" />
     <Compile Include="StringsAndArrays\ZeroMatrix.cs" />
     <Compile Include="StringsAndArrays\TwoSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
