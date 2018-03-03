@@ -110,6 +110,7 @@
     <Compile Include="StringsAndArrays\MajorityElement.cs" />
     <Compile Include="StringsAndArrays\MaximumProduct.cs" />
     <Compile Include="StringsAndArrays\MaxNonNegativeSubArray.cs" />
+    <Compile Include="StringsAndArrays\MergeIntervals.cs" />
     <Compile Include="StringsAndArrays\MinStepsInInfiniteGrid.cs" />
     <Compile Include="StringsAndArrays\NobleInteger.cs" />
     <Compile Include="StringsAndArrays\OneEditAway.cs" />
