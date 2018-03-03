@@ -107,6 +107,7 @@
     <Compile Include="Sorting\MergeSort.cs" />
     <Compile Include="Stacks_Queues\QueueWithTwoStacks.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
+    <Compile Include="StringsAndArrays\LargestNumber.cs" />
     <Compile Include="StringsAndArrays\MajorityElement.cs" />
     <Compile Include="StringsAndArrays\MaximumProduct.cs" />
     <Compile Include="StringsAndArrays\MaxNonNegativeSubArray.cs" />
