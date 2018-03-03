@@ -111,6 +111,7 @@
     <Compile Include="StringsAndArrays\MajorityElement.cs" />
     <Compile Include="StringsAndArrays\MaximumProduct.cs" />
     <Compile Include="StringsAndArrays\MaxNonNegativeSubArray.cs" />
+    <Compile Include="StringsAndArrays\MaxRoomsInHotel.cs" />
     <Compile Include="StringsAndArrays\MergeIntervals.cs" />
     <Compile Include="StringsAndArrays\MergeOverlappingIntervals.cs" />
     <Compile Include="StringsAndArrays\MinStepsInInfiniteGrid.cs" />
