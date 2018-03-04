@@ -59,6 +59,7 @@
     <Compile Include="LinkedLists\Node.cs" />
     <Compile Include="LinkedLists\Partition.cs" />
     <Compile Include="LinkedLists\RemoveDuplicates.cs" />
+    <Compile Include="Maths\FizzBuzz.cs" />
     <Compile Include="Maths\HammingDistance.cs" />
     <Compile Include="Maths\SieveOfErastothenes.cs" />
     <Compile Include="MockInterviews\ArrayIndexAndElementEquality.cs" />
