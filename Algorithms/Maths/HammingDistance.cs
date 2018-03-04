@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Algorithms.Maths
 {
     /*
+     * Algorithm to get sum of pairwise hamming distance between numbers in an array of ints
      * Hamming distance between two non-negative integers is defined as the number of positions at which the corresponding bits are different.
 
 For example,
