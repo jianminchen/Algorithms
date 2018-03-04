@@ -18,36 +18,40 @@ Analyze the time and space complexities of your solution.
 
     public class BinarySearchTree
     {
+        public Node root;
 
-        Node root;
-
-        public int findLargestSmallerKey(int num)
+        public int findLargestSmallerKey(Node rootNode, int num)
         {
-            // your code goes here 
-            if (root == null)
+            // your code goes here
+
+            return FindLargestSmallerKeyRecursive(rootNode, num, -1);
+        }
+
+        /*    rootNode = 20
+              num = 25
+              largestSmallerKey = 20  should have been 14
+
+        */
+        private static int FindLargestSmallerKeyRecursive(Node rootNode, int num, int largestSmallerKey)
+        {
+            if (rootNode == null)
             {
-                return -1;
+                return largestSmallerKey;
             }
 
-            while (root != null)
+            if (rootNode.key > largestSmallerKey && rootNode.key < num)
             {
-
-                if (root.left == null && root.right == null && root.key < num)
-                {
-                    return root.key;
-                }
-
-                if (root.key > num)
-                {
-                    root = root.left;
-                }
-                else
-                {
-                    root = root.right;
-                }
+                largestSmallerKey = rootNode.key;
             }
 
-            return -1;
+            if (num <= rootNode.key)
+            {
+                return FindLargestSmallerKeyRecursive(rootNode.left, num, largestSmallerKey);
+            }
+            else
+            {
+                return FindLargestSmallerKeyRecursive(rootNode.right, num, largestSmallerKey);
+            }
         }
 
         //  inserts a new node with the given number in the
@@ -119,7 +123,7 @@ Analyze the time and space complexities of your solution.
     //    bst.insert(11);
     //    bst.insert(14);
 
-    //    int result = bst.findLargestSmallerKey(17);
+    //    int result = bst.findLargestSmallerKey(bst.root, 20);
     //    Console.WriteLine("Largest smaller number is " + result);
     //    Console.ReadKey();
     //}
