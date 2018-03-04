@@ -61,6 +61,40 @@ output: [84, 24, 56, 42] # by calculating: [7*3*4, 2*3*4, 2*7*4, 2*7*3]
             return output;
         }
 
+        public static int[] ArrayOfArrayProductsSpaceEfficient(int[] arr)
+        {
+            // your code goes here
+            if (arr == null || arr.Length < 2)
+            {
+                return new int[] { };
+            }
+
+            // 2, 7, 3, 4
+            // output = 2  14  42 168
+            //
+            int[] output = new int[arr.Length];
+            output[0] = arr[0];
+            for (int i = 1; i < arr.Length; i++)
+            {
+                output[i] = output[i - 1] * arr[i];
+            }
+
+            //  runningProductFromRight = 84
+            // output   84 24 56 42
+            // i = 0
+
+            int runningProductFromRight = 1;
+            for (int i = arr.Length - 1; i > 0; i--)
+            {
+                output[i] = output[i - 1] * runningProductFromRight;
+                runningProductFromRight *= arr[i];
+            }
+
+            output[0] = runningProductFromRight;
+
+            return output;
+        }
+
         //static void Main(string[] args)
         //{
         //    int[] arr = new int[]{2,7,3,4};
