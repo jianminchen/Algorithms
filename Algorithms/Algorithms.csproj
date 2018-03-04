@@ -102,6 +102,7 @@
     <Compile Include="Stacks_Queues\GenericStack.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
     <Compile Include="StringsAndArrays\CompressString.cs" />
+    <Compile Include="StringsAndArrays\FirstPositiveMissingNumber.cs" />
     <Compile Include="StringsAndArrays\IsRotation.cs" />
     <Compile Include="StringsAndArrays\IsUnique.cs" />
     <Compile Include="MockInterviews\LengthOfLongestSubstring.cs" />
