@@ -114,6 +114,7 @@
     <Compile Include="Stacks_Queues\QueueWithTwoStacks.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="StringsAndArrays\LargestNumber.cs" />
+    <Compile Include="StringsAndArrays\LengthOfLastWord.cs" />
     <Compile Include="StringsAndArrays\LongestCommonPrefix.cs" />
     <Compile Include="StringsAndArrays\MajorityElement.cs" />
     <Compile Include="StringsAndArrays\MaximumProduct.cs" />
