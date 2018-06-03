@@ -87,11 +87,11 @@ namespace Algorithms.MockInterviews
             }
         }
 
-        public static void Main(string[] args)
-        {
-            int[,] input = new int[5, 5] { {1,6,5,6,1 }, {10,5,8,10,1 }, {9,4,3,2,1 }, {10,12,14,15,16 }, {13,14,15,15,15 } };
-            var result = CheckWaterFlowMethod(input);
-            Console.ReadKey();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    int[,] input = new int[5, 5] { {1,6,5,6,1 }, {10,5,8,10,1 }, {9,4,3,2,1 }, {10,12,14,15,16 }, {13,14,15,15,15 } };
+        //    var result = CheckWaterFlowMethod(input);
+        //    Console.ReadKey();
+        //}
     }    
 }

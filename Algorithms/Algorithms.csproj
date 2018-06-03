@@ -54,6 +54,7 @@
     <Compile Include="LinkedLists\Node.cs" />
     <Compile Include="LinkedLists\Partition.cs" />
     <Compile Include="LinkedLists\RemoveDuplicates.cs" />
+    <Compile Include="Miscellaneous\NumberReverse.cs" />
     <Compile Include="MockInterviews\ArrayIndexAndElementEquality.cs" />
     <Compile Include="MockInterviews\ArrayOfArrayProducts.cs" />
     <Compile Include="MockInterviews\ArrayQuadruplet.cs" />
